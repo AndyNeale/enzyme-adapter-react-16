@@ -11,11 +11,11 @@
     "prebuild": "npm run clean",
     "build": "babel src --out-dir build",
     "watch": "npm run build -- -w",
-    "prepublish": "npm run build && safe-publish-latest"
+    "prepare": "npm run build && safe-publish-latest"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:School-Explained/enzyme-adapter-react-16.git"
+    "url": "git@github.com:AndyNeale/enzyme-adapter-react-16.git"
   },
   "keywords": [
     "javascript",
